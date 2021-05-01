@@ -84,9 +84,9 @@ descBox.addEventListener("keydown", function (e) {
 				texteditable[texteditable.length - 1].contentEditable = true;
 			}
 		);
-        let tc = document.querySelectorAll(".ticket-container");
-        tc[tc.length - 1].addEventListener("dblclick", function(){
-            tc[tc.length - 1].remove();
+        let ticketContainer = document.querySelectorAll(".ticket-container");
+        ticketContainer[ticketContainer.length - 1].addEventListener("dblclick", function(){
+            ticketContainer[ticketContainer.length - 1].remove();
         })
 	}
 });
